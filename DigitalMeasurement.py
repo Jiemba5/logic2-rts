@@ -1,6 +1,3 @@
-# import math
-# import numpy
-
 from saleae.range_measurements import DigitalMeasurer
 import numpy as np
 import csv
@@ -68,15 +65,5 @@ class MyDigitalMeasurer(DigitalMeasurer):
         if num_measurements > 1:
             self.values["p_average"] = np.diff(self.t_measurements[0]).sum()/(num_measurements-1)
             self.values["c_std"] = self.c_measurements.std()
-
-
-        # # open the file in the write mode
-        # with open('output.csv', 'w') as f:
-        #     # create the csv writer
-        #     writer = csv.DictWriter(f,fieldnames=self.values.keys)
-        #     # write a row to the csv file
-        #     writer.writeheader()
-        #     writer.writerow(self.values)
-
         return self.values
 
