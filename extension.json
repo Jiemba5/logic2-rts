@@ -1,0 +1,44 @@
+{
+  "name": "test",
+  "apiVersion": "1.0.0",
+  "author": "shy coder",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+    "test": {
+      "type": "DigitalMeasurement",
+      "entryPoint": "DigitalMeasurement.MyDigitalMeasurer",
+      "metrics": {
+        "c_average": {
+          "name": "Average c",
+          "notation": "C<sub>average</sub>",
+          "units": "s"
+        },
+        "c_worst": {
+          "name": "Worst c",
+          "notation": "C<sub>worst</sub>",
+          "units": "s"
+        },
+        "c_best": {
+          "name": "Best c",
+          "notation": "C<sub>best</sub>",
+          "units": "s"
+        },
+        "c_std": {
+          "name": "Std c",
+          "notation": "C<sub>std</sub>",
+          "units": "s"
+        },
+        "t_complete": {
+          "name": "t_completed",
+          "notation": "Tasks completed"
+        },
+        "p_average": {
+          "name": "Average task periode",
+          "notation": "T<sub>mean</sub>",
+          "units": "s"
+        }
+      }
+    }
+  }
+}
