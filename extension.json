@@ -3,7 +3,7 @@
   "apiVersion": "1.0.0",
   "author": "jiemba5",
   "version": "0.0.2",
-  "description": "Includes metrics for finding utilization data for sequential Real-Time Systems Task scheduler.",
+  "description": "Includes measures for finding utilization data for a sequential Real-Time Systems Task scheduler.",
   "extensions": {
     "freeRTS": {
       "type": "DigitalMeasurement",
