@@ -1,11 +1,11 @@
 {
-  "name": "test",
-  "apiVersion": "1.0.0",
-  "author": "shy coder",
+  "name": "freeRTS",
+  "apiVersion": "0.0.1",
+  "author": "jiemba5",
   "version": "0.0.1",
-  "description": "",
+  "description": "Includes metrics for finding utilization data for sequential Real-Time Systems Task scheduler.",
   "extensions": {
-    "test": {
+    "freeRTS": {
       "type": "DigitalMeasurement",
       "entryPoint": "DigitalMeasurement.MyDigitalMeasurer",
       "metrics": {
@@ -30,11 +30,11 @@
           "units": "s"
         },
         "t_complete": {
-          "name": "t_completed",
+          "name": "Tasks completed",
           "notation": "Tasks completed"
         },
         "p_average": {
-          "name": "Average task periode",
+          "name": "Average task period",
           "notation": "T<sub>mean</sub>",
           "units": "s"
         }
