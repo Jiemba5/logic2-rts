@@ -31,7 +31,7 @@
         },
         "t_complete": {
           "name": "Tasks completed",
-          "notation": "Tasks completed"
+          "notation": "N<sub>completed</sub>"
         },
         "p_average": {
           "name": "Average task period",
